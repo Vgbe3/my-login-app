@@ -1,0 +1,40 @@
+.welcomepage-container {
+    display: flex;
+    /* ใช้ flexbox */
+    flex-direction: column;
+    /* จัดเรียงแนวตั้ง */
+    align-items: center;
+    /* จัดตรงกลางในแนวนอน */
+    justify-content: center;
+    /* จัดตรงกลางในแนวตั้ง */
+    height: 400px;
+    width: 400px;
+}
+
+.welcomepage-container button {
+    font-family: "Black Ops One", serif;
+    display: inline-block;
+    margin: 10px;
+    width: var(--hompage--btn-width);
+    height: var(--hompage--btn-height);
+    font-size: var(--hompage--btn-font-size);
+    border-radius: 10px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.changeusername-box {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.changeusername-box input{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 50%;
+    
+}

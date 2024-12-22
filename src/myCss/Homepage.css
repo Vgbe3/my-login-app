@@ -1,0 +1,53 @@
+:root{
+  --hompage--btn-width: 100px;
+  --hompage--btn-height: 50px;
+  --hompage--btn-font-size: 16px;
+}
+
+
+.homepage-container{
+    display: flex; /* ใช้ flexbox */
+    flex-direction: column; /* จัดเรียงแนวตั้ง */
+    align-items: center; /* จัดตรงกลางในแนวนอน */
+    justify-content: center; /* จัดตรงกลางในแนวตั้ง */
+    height: 400px;
+    width: 400px;
+}
+
+.homepage-container button{
+  font-family: "Black Ops One", serif;
+  display: inline-block;
+  margin: 10px;
+  width: var(--hompage--btn-width);
+  height: var(--hompage--btn-height);
+  font-size: var(--hompage--btn-font-size);
+  border-radius: 10px;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.homepage-container button:hover {
+  background-color: #6a6e6c;
+}
+
+
+.Link-btn {
+    font-family: "Black Ops One", serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px;
+    width: var(--hompage--btn-width);
+    height: var(--hompage--btn-height);
+    font-size: var(--hompage--btn-font-size);
+    border: 2px solid #000000; 
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.Link-btn:hover {
+  background-color: #6a6e6c;
+}

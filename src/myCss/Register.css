@@ -1,0 +1,18 @@
+.container-btn{
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: var(--success-color);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .container-btn:hover {
+    background-color: #27ae60;
+  }

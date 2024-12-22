@@ -1,0 +1,105 @@
+
+.error-message {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    color: var(--error-color);
+    visibility: visible;
+}
+.error-hidden{
+  visibility: hidden;
+}
+.container {
+    display: flex;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* เพิ่มระยะห่างระหว่างองค์ประกอบ */
+  width: 400px;
+  background-color: var(--primary-color);
+  padding:  30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-btn{
+  margin: auto;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  border: none;
+  background-color: var(--success-color);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #27ae60;
+}
+
+.translate-btn{
+    position: relative;
+    width: 50px;
+    height: 100px;
+    top: 50px;
+}
+.translate-btn button{
+    margin-top: 1px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: var(--primary-color) ;
+    border-radius: 10px 0 0px 10px;
+}
+.translate-btn button:hover {
+    filter: brightness(0.8);
+}
+  
+
+
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--input-bg-color);
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  padding: 10px;
+  gap: 10px; /* เพิ่มช่องว่างระหว่างไอคอนและ input */
+}
+
+.input-box input {
+  flex: 1;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.input-box input:focus {
+  outline: none;
+  border: 1px solid var(--success-color);
+}
+
+.input-box small {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.input-icon {
+  font-size: 18px;
+  color: #555;
+}
