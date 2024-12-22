@@ -37,10 +37,10 @@ const Loginpage = () => {
         if (hasError) return;
 
         try {
-            await login(email, password); // ล็อกอินผู้ใช้ใน Firebase
+            await login(email, password); 
             console.log("try")
             alert("Login successful!");
-            navigate("/welcome"); // เปลี่ยนเส้นทางไปหน้า Dashboard หรือหน้าที่ต้องการ
+            navigate("/welcome"); 
         } catch (err) {
             console.log("catch")
             console.error("Login error:", err.message);
