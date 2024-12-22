@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vgbe3/my-login-app.git/static/css/main.e8e4a5a3.css",
-    "main.js": "/Vgbe3/my-login-app.git/static/js/main.7dc81f82.js",
-    "static/js/453.3e282ddc.chunk.js": "/Vgbe3/my-login-app.git/static/js/453.3e282ddc.chunk.js",
-    "index.html": "/Vgbe3/my-login-app.git/index.html",
-    "main.e8e4a5a3.css.map": "/Vgbe3/my-login-app.git/static/css/main.e8e4a5a3.css.map",
-    "main.7dc81f82.js.map": "/Vgbe3/my-login-app.git/static/js/main.7dc81f82.js.map",
-    "453.3e282ddc.chunk.js.map": "/Vgbe3/my-login-app.git/static/js/453.3e282ddc.chunk.js.map"
+    "main.css": "/my-login-app/static/css/main.e8e4a5a3.css",
+    "main.js": "/my-login-app/static/js/main.da5e8383.js",
+    "static/js/453.3e282ddc.chunk.js": "/my-login-app/static/js/453.3e282ddc.chunk.js",
+    "index.html": "/my-login-app/index.html",
+    "main.e8e4a5a3.css.map": "/my-login-app/static/css/main.e8e4a5a3.css.map",
+    "main.da5e8383.js.map": "/my-login-app/static/js/main.da5e8383.js.map",
+    "453.3e282ddc.chunk.js.map": "/my-login-app/static/js/453.3e282ddc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8e4a5a3.css",
-    "static/js/main.7dc81f82.js"
+    "static/js/main.da5e8383.js"
   ]
 }
