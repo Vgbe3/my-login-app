@@ -41,10 +41,10 @@ const Welcomepage = () => {
             const user = auth.currentUser;
             if (user) {
                 const docRef = doc(db, "users", user.uid);
-                await setDoc(docRef, { ...userDetails, username: newUsername }); // อัปเดต username ใน Firestore
-                setUserDetails((prevDetails) => ({ ...prevDetails, username: newUsername })); // อัปเดต state
+                await setDoc(docRef, { ...userDetails, username: newUsername }); 
+                setUserDetails((prevDetails) => ({ ...prevDetails, username: newUsername })); 
                 alert("Username updated successfully!");
-                setNewUsername(""); // ล้างค่าใน input
+                setNewUsername(""); 
             }
         } catch (err) {
             console.error("Error updating username:", err);
