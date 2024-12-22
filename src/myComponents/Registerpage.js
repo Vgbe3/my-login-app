@@ -63,9 +63,9 @@ const Registerpage = () => {
         try {
             console.log("try")
             await signUp(email,password)
-            const user = auth.currentUser; // รับข้อมูลผู้ใช้ที่ถูกสร้าง
+            const user = auth.currentUser;
 
-            // หลังจากที่สร้างผู้ใช้เสร็จแล้ว บันทึกข้อมูล username ใน Firestore
+            
             if(user){
                 console.log("try2",user.email,username,user.uid)
                 await setDoc(doc(db, "users", user.uid), {
